@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #5c5c5c;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 25px;
+}
+
+.nav-bar {
+    min-height: 100px;
+}
+
+/* body {
+  overflow: hidden;
+} */
+
+/* .sidebar {
+    background-color: rgb(81, 80, 80);
+
+    width: 200px;
+    font-family: "Oleo Script Swash Caps", cursive;
+    height: 120vh;
+}
+
+.sidebar nav {
+    padding: 60px;
+    width: 100px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+} */
+
+.main {
+    background-color: rgb(8, 8, 8);
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: rgb(10, 162, 244); */
+    height: 67vh;
+    width: 150vh;
+    margin: 135px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    width: 600px;
+    display: inline-block;
+    height: 55vh;
+    background-color: rgb(0, 63, 81);
+    border-radius: 78% 22% 70% 30% / 34% 30% 70% 66%;
+}
+
+.devinformation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hello {
+    font-size: 80px;
+    font-weight: bolder;
+    font-family: "Oleo Script Swash Caps", cursive;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.Name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+}
+
+.introHeading {
+    font-size: medium;
+    align-items: center;
+}
+
+.AboutMe {
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+}
+
+.moreaboutme {
+    font-size: 25px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.5;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(96, 96, 96);
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: blue;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intropic img {
+    display: inline-block;
+    height: 40vh;
+    /* background-color: rgb(72, 195, 230);
+    border-radius: 41% 59% 35% 65% / 70% 25% 75% 30% */
+}
+
+
+.contactform {
+    padding: 0 50px;
+    font-family: "Koulen", cursive;
+    padding-top: 80px;
+}
+
+.contactform div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform div {
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 10px;
+    font-size: 18px;
+    /* outline: none; */
+}
+
+.contactformdetails::placeholder {
+    color: black;
+}
+
+.form-control {
+    width: 500px;
+    height: 30px;
+    transition: 0.25s;
+
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.form-control:focus {
+    border-color: rgb(229, 254, 3);
+    box-shadow: 0 0 8px 0 rgb(217, 255, 0);
+    color: rgb(11, 117, 17);
+    font-size: 1rem;
+
+    /* background-color: rgb(87, 184, 244); */
+}
+
+.form-control-message {
+    width: 500px;
+    height: 60px;
+}
+
+.button {
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(96, 96, 96);
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 16px;
+
+    transition: 0.25s;
+}
+
+.button:hover {
+    background-color: white;
+    color: blue;
+}
+
+/* @media only screen and (max-width: 744px) {
+    body {
+        background-color: rgb(246, 2, 2);
+    }
+
+    .sidebar {
+        transform: translate;
+    }
+} */
