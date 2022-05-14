@@ -25,6 +25,7 @@ header {
 
 }
 
+
 /* body {
   overflow: hidden;
 } */
@@ -98,16 +99,16 @@ header {
     font-family: "Dancing Script", cursive;
 }
 
-.introHeading {
+.Heading {
 
     font-size: 50px;
     align-items: center;
 }
 
-.AboutMe {
+/* .AboutMe {
     font-size: 20px;
     font-family: "Indie Flower", cursive;
-}
+} */
 
 .moreaboutme {
     font-size: 25px;
@@ -150,6 +151,9 @@ header {
     padding: 0 50px;
     font-family: "Koulen", cursive;
     padding-top: 80px;
+    /* display: flex; */
+    /* display: flex;
+    justify-content: space-around; */
 }
 
 .contactform div {
@@ -209,6 +213,11 @@ header {
 .button:hover {
     background-color: white;
     color: blue;
+}
+
+.contactform image {
+    display: flex;
+    height: 40vh;
 }
 
 /* @media only screen and (max-width: 744px) {
