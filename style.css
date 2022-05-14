@@ -21,7 +21,8 @@ header {
 }
 
 .nav-bar {
-    min-height: 100px;
+    margin-left: 20px;
+
 }
 
 /* body {
@@ -98,7 +99,8 @@ header {
 }
 
 .introHeading {
-    font-size: medium;
+
+    font-size: 50px;
     align-items: center;
 }
 
