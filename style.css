@@ -4,8 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&display=swap");
 
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   color: white;
 }
 
@@ -20,8 +21,18 @@ header {
   padding: 25px;
 }
 
-.nav-bar {
+#nav-bar {
   margin-left: 20px;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  /*  */
+  flex-wrap: wrap;
 }
 
 /* body {
@@ -223,12 +234,14 @@ btn {
   text-align: center;
   padding: 0 30px 30px;
   color: rgb(26, 26, 26);
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
   transition: transform 0.4s, top 0.4s;
 }
 
 .open-popup {
-  visibility: visible;
+  display: block;
+  /* visibility: visible; */
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
 }
