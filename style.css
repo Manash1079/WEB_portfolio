@@ -234,14 +234,12 @@ btn {
   text-align: center;
   padding: 0 30px 30px;
   color: rgb(26, 26, 26);
-  /* visibility: hidden; */
-  display: none;
+  visibility: hidden;
   transition: transform 0.4s, top 0.4s;
 }
 
 .open-popup {
-  display: block;
-  /* visibility: visible; */
+  visibility: visible;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
 }
