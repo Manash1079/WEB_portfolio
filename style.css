@@ -35,6 +35,10 @@ header {
   flex-wrap: wrap;
 }
 
+#nav-bar ul a {
+  text-decoration: none;
+}
+
 /* body {
   overflow: hidden;
 } */
@@ -66,7 +70,6 @@ header {
 .main {
   background-color: rgb(8, 8, 8);
   width: 100vw;
-
 }
 
 .container {
@@ -88,7 +91,6 @@ header {
   height: 55vh;
   background-color: rgb(0, 63, 81);
   border-radius: 78% 22% 70% 30% / 34% 30% 70% 66%;
-
 }
 
 .devinformation {
@@ -160,18 +162,15 @@ header {
   padding: 0 50px;
   font-family: "Koulen", cursive;
   padding-top: 80px;
-  /* display: flex; */
-  /* display: flex;
-    justify-content: space-around; */
 }
 
-.contactform div {
-  padding: 10px;
+.contactform {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
 }
 
-.contactform div {
+.contactform .contactformdetails {
   width: 30vw;
   border-radius: 5px;
   margin: 6px;
@@ -180,13 +179,21 @@ header {
   /* outline: none; */
 }
 
+.contactform img {
+  margin-top: 70px;
+  margin-left: -90px;
+  border-radius: 30px;
+  height: 40vh;
+  width: 250px;
+}
+
 .contactformdetails::placeholder {
   color: black;
 }
 
 .form-control {
   width: 500px;
-  height: 30px;
+  height: 42px;
   transition: 0.25s;
 
   border-radius: 10px;
@@ -204,23 +211,39 @@ header {
 
 .form-control-message {
   width: 500px;
-  height: 60px;
+  height: 40px;
 }
 
-btn {
-  padding: 10px 60px;
-  background: #fff;
+.btn {
+  padding: 10px 40px;
+  background: rgb(95, 94, 94);
   border: 0;
   outline: none;
   cursor: pointer;
   font-size: 22px;
   font-weight: 500;
-  border-radius: 10px;
+  border-radius: 30px;
+  margin-left: 500px;
 }
 
 .btn:hover {
   background-color: white;
   color: blue;
+}
+
+.popup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+
+  visibility: hidden;
 }
 
 .popup {
@@ -239,6 +262,7 @@ btn {
 }
 
 .open-popup {
+  display: block;
   visibility: visible;
   top: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -255,6 +279,12 @@ btn {
   font-size: 38px;
   font-weight: 500;
   margin: 30px 0 10px;
+
+  color: rgb(26, 26, 26);
+}
+
+.popup p {
+  color: rgb(26, 26, 26);
 }
 
 .popup button {
