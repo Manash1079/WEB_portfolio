@@ -133,16 +133,17 @@ header {
 }
 
 .buttons button {
-  padding: 10px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 30px;
   background-color: rgb(96, 96, 96);
   margin: 0 20px 0 0;
   cursor: pointer;
+
 }
 
 .buttons button:hover {
-  background-color: white;
-  color: blue;
+  background-color: rgb(14, 228, 248);
+  color: rgb(252, 252, 252);
 }
 
 .information {
@@ -299,6 +300,10 @@ header {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+}
+
+.footer {
+  background: rgb(94, 93, 93);
 }
 
 /* @media only screen and (max-width: 744px) {
