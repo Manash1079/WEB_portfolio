@@ -81,13 +81,13 @@
                         traveling and trying something new. Presently seeking an internship that will allow me to build
                         my experience.
                     </div>
-                    <div class="image">
+                    <!-- <div class="image">
                         <div class="intropic"><img src="image.jpg" alt="Intro Pic" /></div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
 
-            <section class="Services" id="Service">
+            <section class="Services" id="Services">
                 <div class="infocontainer">
                     <div class="AboutMe">
                         <h1 class="Heading">Services</h1>
@@ -113,25 +113,25 @@
                     <div>
                         <h1 class="heading">Contact Me For more details/Enquires</h1>
 
-                        <form>
+                        <form name="contact" netlify>
                             <div class="contactformdetails">
                                 <label for="clientname" class="form-label">Name</label>
-                                <input type="text" placeholder="Enter your name" class="form-control" id="clientname" />
+                                <input type="text" name="name" placeholder="Enter your name" class="form-control" id="clientname" />
                             </div>
                             <div class="contactformdetails">
                                 <label for="clientemail" class="form-label">Email address</label>
-                                <input type="email" placeholder="Enter your email" class="form-control" id="clientemail"
+                                <input type="email"  name="email" placeholder="Enter your email" class="form-control" id="clientemail"
                                     aria-describedby="emailHelp" />
                             </div>
                             <div class="contactformdetails">
                                 <label for="clientphone" class="form-label">PHONE NUMBER</label>
-                                <input type="phone" placeholder="Enter your phone Number" class="form-control"
+                                <input type="phone" name="phone" placeholder="Enter your phone Number" class="form-control"
                                     id="clientphone" />
                             </div>
 
                             <div class="contactformdetails">
                                 <label for="clientmessage" class="form-label">MESSAGE</label>
-                                <input type="Text" placeholder="Any Message?" class="form-control form-control-message"
+                                <input type="Text" name="message" placeholder="Any Message?" class="form-control form-control-message"
                                     id="clientmessage" />
                             </div>
                             <button type="submit" class="btn" id="btn">Submit</button>
