@@ -162,7 +162,10 @@ header {
   /* background-color: rgb(72, 195, 230);
     border-radius: 41% 59% 35% 65% / 70% 25% 75% 30% */
 }
-
+.prjbuttons button{
+  padding: 10px;
+  border-radius: 30px;
+}
 .contactform {
   padding: 0 50px;
   font-family: "Koulen", cursive;
