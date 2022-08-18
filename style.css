@@ -168,6 +168,10 @@ header {
   background-color: #5c5c5c;
   cursor: pointer;
 }
+.prjbuttons button:hover {
+  background-color: rgb(14, 228, 248);
+  color: rgb(252, 252, 252);
+}
 .contactform {
   padding: 0 50px;
   font-family: "Koulen", cursive;
