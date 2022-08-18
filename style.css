@@ -24,7 +24,20 @@ header {
   font-family: "Exo 2", sans-serif;
   padding: 25px;
 }
-
+footer {
+  width: 100%;
+  padding: 1.5rem 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: center;
+}
+.foot{
+  background-color:#5c5c5c;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #nav-bar {
   margin-left: 20px;
 }
